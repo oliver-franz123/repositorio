@@ -1,0 +1,76 @@
+/* Estilos básicos y reseteos */
+body, h1, h2, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #f0f0f0; /* Texto claro */
+    font-family: 'Verdana', sans-serif; /* Fuente moderna y legible */
+    line-height: 1.5; /* Espaciado entre líneas */
+    padding: 20px; /* Espacio alrededor */
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center; /* Centra el título */
+    color: #e8e8e8; /* Color de texto claro */
+    font-size: 2.5em; /* Tamaño del título */
+    text-transform: uppercase; /* Mayúsculas para estilo Star Wars */
+    margin-bottom: 20px; /* Espacio bajo el título */
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para el menú */
+    display: flex; /* Flexbox para alinear enlaces */
+    justify-content: center; /* Centra el menú */
+    padding: 10px; /* Espacio interior */
+    border-bottom: 2px solid #666; /* Bordes para efecto metálico */
+}
+
+nav a {
+    color: #f0f0f0; /* Texto claro */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espacio interno */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+nav a:hover {
+    background-color: #e8e8e8; /* Color claro al pasar el ratón */
+    color: #333; /* Texto oscuro al pasar el ratón */
+}
+
+/* Estilo para la información de la especie */
+.species-info {
+    background-color: #2b2b2b; /* Fondo oscuro para la sección */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+    padding: 20px; /* Espacio interior */
+    margin: 20px auto; /* Espacio exterior y centrado */
+    max-width: 600px; /* Ancho máximo */
+}
+
+.species-info h2 {
+    text-align: center; /* Centra el título de la especie */
+    color: #e8e8e8; /* Texto claro */
+    font-size: 1.8em; /* Tamaño del título */
+    text-transform: uppercase; /* Mayúsculas para estilo Star Wars */
+    border-bottom: 2px solid #666; /* Borde inferior para separar */
+    padding-bottom: 10px; /* Espacio debajo del borde */
+}
+
+.species-info ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 10px; /* Espacio interno */
+}
+
+.species-info ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+}
+
+.species-info ul li strong {
+    color: #e8e8e8; /* Texto claro */
+}
